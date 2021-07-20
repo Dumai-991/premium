@@ -1,6 +1,5 @@
 ### BUKTI - SCRIPT
-
-
+![#](https://raw.githubusercontent.com/Dumai-991/premium/main/Image/Screenshot_2021-07-13-08-11-41-17.jpg)
 
 ### Information
 * **Saya Tidak Bertanggung Jawab Atas Terjadi Masalahnya... Apapun Itu...**
@@ -44,16 +43,13 @@ pkg update
 pkg upgrade
 pkg install python
 pkg install python2
-pkg install php
 pkg install bash
 pkg install wget
 pkg install git
-pkg install figlet
-pkg install cowsay
-pkg install lolcat
-pkg install toilet
-pkg install pyfiglet
-gem install lolcat
+pip install request
+pip install bs4
+pip2 install request
+pip2 install bs4
 rm -rf premium
 git clone https://github.com/Dumai-991/premium
 cd premium

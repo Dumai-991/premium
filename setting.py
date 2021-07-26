@@ -121,6 +121,11 @@ warna_ms=([i, c, m, u, k, p, h, b])
 w2=(warna_me)
 w=random.choice(w2)
 try:
+	z = 50
+	x = 0
+except (KeyError, IOError):
+	exit(war+"BUG !!")
+try:
 	kntlx=([i, c, m, u, k, p, h, b])
 	for w3 in kntlx:
 		continue
@@ -146,7 +151,8 @@ ________                           _____                     \n___  __ \________
 	ganteng = pilih(rizky)
 	print(w3+ganteng)
 
-host="https://mbasic.facebook.com"
+host="https://free.facebook.com"
+#host="https://mbasic.facebook.com"
 ips=None
 try:
         ipx=requests.get("http://ip-api.com/json/").json()["query"]

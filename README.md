@@ -15,12 +15,14 @@
 * _Script Ini Menggunakan 2 Method Login_
 1. **B-Api Facebook**
 2. **MBasic Facebook**
+3. **Free Facebook**
 
 * _Script Ini Juga Menggunakan 4 Metode Crack_
 1. **Crack Dari Teman Sendiri**
 2. **Crack Dari Public**
 3. **Crack Dari Followers**
 4. **Crack Dari File**
+5. **Crack Dari Masal**
 
 * _Script Ini Login Menggunakan_
 1. **Cookies**
@@ -55,7 +57,7 @@ git clone https://github.com/Dumai-991/premium
 cd premium
 ```
 * **Untuk Jalankan Script Bisa DiKetik :**
-* ```python run.py```
+* ```python prem.py```
 
 * **Untuk Stop Script Tekan :**
 * ```CTRL + Z```

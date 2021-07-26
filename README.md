@@ -60,6 +60,5 @@ cd premium
 * **Untuk Stop Script Tekan :**
 * ```CTRL + Z```
 
-
+######### Key Premium : b9760f6ae712402ab67386a06b12e47f
 ** JANGAN LUPA KASIH BINTANG **
-# premium

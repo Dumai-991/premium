@@ -52,6 +52,31 @@ bulat2=(k+"["+p+"••"+k+"] "+p)   # [••]
 war2=(k+"["+p+"!!"+k+"] "+p)  # [!!]
 inp2=(k+"["+p+"??"+k+"] "+p) # [??]
 garis=(k+'['+i+'+'+k+']'+p+'========================================================='+k+'['+i+'+'+k+']')
+import os
+import sys
+import time
+import datetime
+import random
+import hashlib
+import re
+import threading
+import json
+import urllib
+import requests
+import uuid
+import ipaddress
+import calendar
+from multiprocessing.pool import ThreadPool
+from requests.exceptions import ConnectionError
+from bs4 import BeautifulSoup as par
+from time import sleep
+from datetime import datetime
+from datetime import date
+try:
+        import requests
+except ImportError:
+        print ('[×] Modul requests belum terinstall!...\n')
+        os.system('pip install requests' if os.name == 'nt' else 'pip2 install requests')
 
 import requests as r, re, os
 from bs4 import BeautifulSoup as par
@@ -89,6 +114,7 @@ ua = {"user-agent":"chrome"}
 prvt = []
 ses = r.Session()
 link = "https://free.facebook.com/"
+r=requests.Session()
 #Memek Kau :p
 N="\033[00m"
 q="\033[00m"

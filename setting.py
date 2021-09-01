@@ -229,8 +229,7 @@ ________                           _____                     \n___  __ \________
 	ganteng = pilih(rizky)
 	print(w3+ganteng)
 
-host="https://free.facebook.com"
-#host="https://mbasic.facebook.com"
+host="https://mbasic.facebook.com"
 ips=None
 try:
         ipx=requests.get("http://ip-api.com/json/").json()["query"]

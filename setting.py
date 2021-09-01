@@ -21,6 +21,7 @@ newpass="Dumai991"
 
 #WARNA_COPY_Right
 #p = "\x1b[0;37m" # putih
+"""
 q="\033[00m"
 h2="\033[40m"
 b2="\033[44m"
@@ -45,6 +46,48 @@ k = "\033[0;36m" # kuning
 b = "\x1b[0;34m" # biru
 u = "\x1b[0;35m" # ungu
 o = "\033[0;32m" # biru muda
+""" # WARNA ASLI
+
+q="\033[00m"
+h2="\033[40m"
+b2="\033[44m"
+c2="\033[46m"
+i2="\033[42m"
+u2="\033[45m"
+m2="\033[41m"
+p2="\033[47m"
+k2="\033[43m"
+b='\033[0;94m'
+I='\033[0;92m'
+C='\033[0;96m'
+M='\033[0;91m'
+U='\033[0;95m'
+K='\033[0;93m'
+P='\033[0;97m'
+H='\033[0;90m'
+i='\033[0;92m'
+c='\033[0;96m'
+m='\033[0;91m'
+u='\033[0;95m'
+k='\033[0;93m'
+p='\033[0;97m'
+h='\033[0;90m'
+m3=(q+m2)
+
+# Warna Ini Sudah Rusak
+p = "\x1b[0;33m" # putih
+m = "\x1b[0;31m" # merah
+h = "\x1b[0;32m" # hijau
+k = "\033[0;36m" # kuning
+b = "\x1b[0;34m" # biru
+u = "\x1b[0;35m" # ungu
+o = "\033[0;32m" # biru muda
+bulat=(k+"["+p+"•"+k+"] "+p)   #   [•]
+war=(k+"["+p+"!"+k+"] "+p)  # [!]
+inp=(k+"["+p+"?"+k+"] "+p) # [?]
+bulat2=(k+"["+p+"••"+k+"] "+p)   # [••]
+war2=(k+"["+p+"!!"+k+"] "+p)  # [!!]
+inp2=(k+"["+p+"??"+k+"] "+p) # [??]
 bulat=(k+"["+p+"•"+k+"] "+p)   #   [•]
 war=(k+"["+p+"!"+k+"] "+p)  # [!]
 inp=(k+"["+p+"?"+k+"] "+p) # [?]
@@ -66,12 +109,21 @@ import requests
 import uuid
 import ipaddress
 import calendar
-from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 from bs4 import BeautifulSoup as par
 from time import sleep
 from datetime import datetime
 from datetime import date
+import requests,mechanize,bs4,sys,os,subprocess,uuid
+import requests,sys,random,time,re,base64,json
+import os, re, requests, concurrent.futures
+from random import randint
+from concurrent.futures import ThreadPoolExecutor as ThreadPool
+from datetime import date
+from datetime import datetime
+import requests
+from bs4 import BeautifulSoup
+from concurrent.futures import ThreadPoolExecutor
 try:
         import requests
 except ImportError:

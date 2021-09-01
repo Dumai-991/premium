@@ -16,6 +16,12 @@
 1. **B-Api Facebook**
 2. **MBasic Facebook**
 3. **Free Facebook**
+4. **Graph Facebook**
+
+### Information Users Premium And Admin
+**★PREMIUM★**
+1. 
+
 
 * _Script Ini Juga Menggunakan 4 Metode Crack_
 1. **Crack Dari Teman Sendiri**
@@ -44,14 +50,9 @@
 pkg update
 pkg upgrade
 pkg install python
-pkg install python2
-pkg install bash
-pkg install wget
 pkg install git
 pip install request
 pip install bs4
-pip2 install request
-pip2 install bs4
 rm -rf premium
 git clone https://github.com/Dumai-991/premium
 cd premium

@@ -19,7 +19,7 @@ __Terima Kasih Kepada !!__
 3. **Free Facebook**
 4. **Graph Facebook**
 
-**★★MENU PREMIUM AND ADMIN★★**
+---MENU PREMIUM AND ADMIN
 
 --PREMIUM
 1. Old or Young Facebook ID Separation
@@ -32,29 +32,25 @@ __Terima Kasih Kepada !!__
 1. Dump ID Follow Masal (max-500000)
 2. Dump Amount Of Friends
 
-* _Script Ini Juga Menggunakan 4 Metode Crack_
-1. **Crack Dari Teman Sendiri**
-2. **Crack Dari Public**
-3. **Crack Dari Followers**
-4. **Crack Dari File**
-5. **Crack Dari Masal**
 
-* _Script Ini Login Menggunakan_
-1. **Cookies**
-2. **Tokens**
+### ID Dump Method
+1. Dump From Public Friends
+2. Dump From Follow
+3. Dump From Follow Masal (ADMIN)
 
-### Donasi Ngab
+### DONASI(Donate Bro)
+
 * Dana : ```083143565470```
 * Ovo. : ```083143565470```
 * Gopay: ```083143565470```
 * Pulsa: ```083143565470``` _AXIS_
 
-### Akun Sosial
+### Social Account
 * [Facebook](m.facebook.com/llovexnxx)
 * [WhatsApp](https://wa.me/6283143565470)
 * [Github](github.com/Dumai-991)
 
-### Bahan
+### Bahan Script (Script Material)
 ```
 pkg update
 pkg upgrade
@@ -66,10 +62,12 @@ rm -rf premium
 git clone https://github.com/Dumai-991/premium
 cd premium
 ```
-* **Untuk Jalankan Script Bisa DiKetik :**
+* **Untuk Jalankan Script Bisa DiKetik :(To run the script, you can type:)**
 * ```python prem.py```
 
-* **Untuk Stop Script Tekan :**
+* **Untuk Stop Script Tekan : (To Stop Script Press :)**
 * ```CTRL + Z```
 
 ** JANGAN LUPA KASIH BINTANG **
+
+** DON'T FORGET TO GIVE STARS **

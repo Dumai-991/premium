@@ -56,11 +56,12 @@ pkg update
 pkg upgrade
 pkg install python
 pkg install git
-pip install request
+pip install requests
+pip install mechanize
 pip install bs4
-rm -rf premium
 git clone https://github.com/Dumai-991/premium
 cd premium
+git pull
 ```
 * **Untuk Jalankan Script Bisa DiKetik :(To run the script, you can type:)**
 * ```python prem.py```

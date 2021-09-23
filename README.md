@@ -51,6 +51,14 @@ __Terima Kasih Kepada !!__
 * [Github](github.com/Dumai-991)
 
 ### Bahan Script (Script Material)
+* **Bagi Yang Sudah Install Tools**
+```
+cd $HOME/premium
+git pull
+python prem.py
+```
+
+* **Bagi Yang Belum Install Tools**
 ```
 pkg update
 pkg upgrade
@@ -63,6 +71,7 @@ git clone https://github.com/Dumai-991/premium
 cd premium
 git pull
 ```
+
 * **Untuk Jalankan Script Bisa DiKetik :(To run the script, you can type:)**
 * ```python prem.py```
 

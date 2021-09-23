@@ -106,6 +106,18 @@ import re
 import threading
 import json
 import urllib
+try: import requests
+except ModuleNotFoundError: os.system("python -m pip install requests &> /dev/null")
+try: import bs4
+except ModuleNotFoundError: os.system("python -m pip install bs4 &> /dev/null")
+try: import mechanize
+except ModuleNotFoundError: os.system("python -m pip install mechanize &> /dev/null")
+import requests as req
+try:
+        import requests
+except ImportError:
+        print ('[×] Modul requests belum terinstall!...\n')
+        os.system('pip install requests' if os.name == 'nt' else 'pip2 install requests')
 import requests
 import uuid
 import ipaddress
@@ -125,12 +137,7 @@ from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor
-try:
-        import requests
-except ImportError:
-        print ('[×] Modul requests belum terinstall!...\n')
-        os.system('pip install requests' if os.name == 'nt' else 'pip2 install requests')
-
+from bs4 import BeautifulSoup as parser
 import requests as r, re, os
 from bs4 import BeautifulSoup as par
 import platform
@@ -152,11 +159,6 @@ from os import system
 import re
 import os,random,time,sys
 import json
-try: import requests
-except ModuleNotFoundError: os.system("python -m pip install requests &> /dev/null")
-try: import bs4
-except ModuleNotFoundError: os.system("python -m pip install bs4 &> /dev/null")
-import requests as req
 from time import sleep as waktu
 from bs4 import BeautifulSoup as parser
 current = datetime.now()

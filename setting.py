@@ -1,10 +1,10 @@
 ###########################################################################
-# TEAM   : YAYAN,ANGGA,DAPUNTA,RISKY,WANS,ITSUKI			  #
+# TEAM   : ZEE K WORLD,MR.RISKY,WANSXGANS,        			  #
 # SOSIAL : 								  #
 # - Facebook : https://m.facebook.com/llovexnxx				  #
 # - WhatsApp : https://wa.me/6283143565470				  #
 # - TeleGram : 6283143565470       					  #
-# - Github   : https://github.com/Dumai-991n 				  #
+# - Github   : https://github.com/Dumai-991 				  #
 # INFO   :								  #
 # - Hallo Raja Recoder Boleh Edit Tapi Jangan Berlebihan Oke...           #
 # - Script Jangan DiPerjual Belikan :( Karena Anda Noob Kentod            #
@@ -14,10 +14,10 @@ no_me = ("6283143565470")
 email_me = ("santuyaja019@gmail.com")
 facebook_me = ("Https://M.Facebook.Com/llovexnxx")
 github_me = ("Https://Github.Com/Dumai-991")
-team = ("Angga, Yayan, Dapunta, Mr.Risky, Wans And ITSUKI")
+team = ("ZEE K WORLD,MR.RISKY,WANSXGANS")
 url="https://free.facebook.com"
-useragent="Mozilla/5.0 (Linux; Android 5.1; PICOphone_M4U_M2_M Build/LMY47D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36"
-newpass="Dumai991"
+#useragent="Mozilla/5.0 (Linux; Android 5.1; PICOphone_M4U_M2_M Build/LMY47D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36"
+newpass="Tiktok"
 
 #WARNA_COPY_Right
 #p = "\x1b[0;37m" # putih

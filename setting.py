@@ -164,6 +164,15 @@ from bs4 import BeautifulSoup as parser
 current = datetime.now()
 import requests,mechanize,bs4,sys,os,subprocess,uuid,random,time,re,base64,concurrent.futures,json
 koneksi_error=(req.exceptions.ConnectionError,req.exceptions.ChunkedEncodingError,req.exceptions.ReadTimeout)
+
+import requests, sys, bs4, os, random, time, re, json
+from concurrent.futures import ThreadPoolExecutor as zthreads
+from multiprocessing.pool import ThreadPool
+from requests.exceptions import ConnectionError
+from bs4 import BeautifulSoup as parser
+from datetime import datetime
+from time import sleep
+
 #Jaga Jarak Kawan :v
 ua = {"user-agent":"chrome"}
 prvt = []

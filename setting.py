@@ -167,7 +167,7 @@ koneksi_error=(req.exceptions.ConnectionError,req.exceptions.ChunkedEncodingErro
 
 import requests, sys, bs4, os, random, time, re, json
 from concurrent.futures import ThreadPoolExecutor as zthreads
-from multiprocessing.pool import ThreadPool
+#from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 from bs4 import BeautifulSoup as parser
 from datetime import datetime

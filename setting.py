@@ -16,7 +16,7 @@ facebook_me = ("Https://M.Facebook.Com/llovexnxx")
 github_me = ("Https://Github.Com/Dumai-991")
 team = ("ZEE K WORLD,MR.RISKY,WANSXGANS")
 url="https://free.facebook.com"
-#useragent="Mozilla/5.0 (Linux; Android 5.1; PICOphone_M4U_M2_M Build/LMY47D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36"
+useragent="Mozilla/5.0 (Linux; Android 5.1; PICOphone_M4U_M2_M Build/LMY47D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36"
 newpass="Tiktok"
 
 #WARNA_COPY_Right
@@ -47,7 +47,6 @@ b = "\x1b[0;34m" # biru
 u = "\x1b[0;35m" # ungu
 o = "\033[0;32m" # biru muda
 """ # WARNA ASLI
-
 q="\033[00m"
 h2="\033[40m"
 b2="\033[44m"
@@ -57,6 +56,7 @@ u2="\033[45m"
 m2="\033[41m"
 p2="\033[47m"
 k2="\033[43m"
+b='\033[0;94m'
 B='\033[0;94m'
 I='\033[0;92m'
 C='\033[0;96m'
@@ -65,24 +65,23 @@ U='\033[0;95m'
 K='\033[0;93m'
 P='\033[0;97m'
 H='\033[0;90m'
-b='\033[0;94m'
 i='\033[0;92m'
-c='\033[0;96m'
+c='\033[0;92m'
 m='\033[0;91m'
 u='\033[0;95m'
-k='\033[0;93m'
-p='\033[0;97m'
+k='\033[0;96m'
+p='\033[0;93m'
 h='\033[0;90m'
-m3=(q+m2)
 
-# Warna Ini Sudah Rusak
+m3=(q+m2)
 p = "\x1b[0;33m" # putih
 m = "\x1b[0;31m" # merah
 h = "\x1b[0;32m" # hijau
-k = "\033[0;36m" # kuning
+#k = "\033[0;36m" # kuning
 b = "\x1b[0;34m" # biru
 u = "\x1b[0;35m" # ungu
 o = "\033[0;32m" # biru muda
+# Warna Ini Sudah Rusak
 bulat=(k+"["+p+"•"+k+"] "+p)   #   [•]
 war=(k+"["+p+"!"+k+"] "+p)  # [!]
 inp=(k+"["+p+"?"+k+"] "+p) # [?]
@@ -167,7 +166,6 @@ koneksi_error=(req.exceptions.ConnectionError,req.exceptions.ChunkedEncodingErro
 
 import requests, sys, bs4, os, random, time, re, json
 from concurrent.futures import ThreadPoolExecutor as zthreads
-#from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 from bs4 import BeautifulSoup as parser
 from datetime import datetime
@@ -221,7 +219,8 @@ try:
 		continue
 except KeyError:
 	w3 = ("")
-
+def logo():
+	banner()
 def banner():
 	logo_v2=(f"""
     ____                               _                     \n   / __ \   _____  ___    ____ ___    (_)  __  __   ____ ___ \n  / /_/ /  / ___/ / _ \  / __ `__ \  / /  / / / /  / __ `__ \ \n / ____/  / /    /  __/ / / / / / / / /  / /_/ /  / / / / / /\n/_/      /_/     \___/ /_/ /_/ /_/ /_/   \__,_/  /_/ /_/ /_/ 

@@ -219,6 +219,16 @@ try:
 		continue
 except KeyError:
 	w3 = ("")
+host="https://mbasic.facebook.com"
+ips=None
+try:
+        ipx=requests.get("http://ip-api.com/json/").json()["query"]
+        ips=requests.get("http://ip-api.com/json/"+ipx,headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","User-Agent":"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}).json()["country"].lower()
+        ipp = requests.get("https://api.ipify.org").text
+        country=requests.get("http://ip-api.com/json/").json()["country"]
+except:
+        ips=None
+
 def logo():
 	banner()
 def banner():
@@ -228,6 +238,7 @@ def banner():
 {bulat}Github   : {i}{github_me}
 {bulat}Whatsapp : {i}https://wa.me/{no_me}
 {bulat}Facebook : {i}https://fb.me/llovenxx
+{bulat}Your IP  : {i}{ipx}
 {war}{q}Thanks To : {i}{team}\n{garis}""")
 	logo_v1=(f"""
 ________                           _____                     \n___  __ \_____________ _______ ___ ___(_)____  _________ ___ \n__  /_/ /__  ___/_  _ \__  __ `__ \__  / _  / / /__  __ `__ \ \n_  ____/ _  /    /  __/_  / / / / /_  /  / /_/ / _  / / / / /\n/_/      /_/     \___/ /_/ /_/ /_/ /_/   \__,_/  /_/ /_/ /_/ 
@@ -235,19 +246,11 @@ ________                           _____                     \n___  __ \________
 {bulat}Github   : {i}{github_me}
 {bulat}Whatsapp : {i}https://wa.me/{no_me}
 {bulat}Facebook : {i}https://fb.me/llovenxx
+{bulat}Your IP  : {i}{ipx}
 {war}{q}Thanks To : {i}{team}\n{garis}""")
 	rizky = ([logo_v1, logo_v2])
 	ganteng = pilih(rizky)
 	print(w3+ganteng)
-
-host="https://mbasic.facebook.com"
-ips=None
-try:
-        ipx=requests.get("http://ip-api.com/json/").json()["query"]
-        ips=requests.get("http://ip-api.com/json/"+ipx,headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","User-Agent":"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}).json()["country"].lower()
-except:
-        ips=None
-
 
 def kntl():
 #                 %s"[ K N T L ]"

@@ -1,6 +1,6 @@
 ### BUKTI - SCRIPT
 ![#](https://raw.githubusercontent.com/Dumai-991/premium/main/Image/Screenshot_2021-07-13-08-11-41-17.jpg)
-
+![VIEW-PREMIUM](https://komarev.com/ghpvc/?username=premium&color=blue)
 ### Information
 *Saya Tidak Bertanggung Jawab Atas Terjadi Masalahnya... Apapun Itu...*
 (_I'm not responsible for the problem... Whatever it is..._)

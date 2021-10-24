@@ -164,6 +164,16 @@ current = datetime.now()
 import requests,mechanize,bs4,sys,os,subprocess,uuid,random,time,re,base64,concurrent.futures,json
 koneksi_error=(req.exceptions.ConnectionError,req.exceptions.ChunkedEncodingError,req.exceptions.ReadTimeout)
 
+#### DAPUNTA
+import requests,bs4,sys,os,random,time,re,json,uuid,subprocess
+from random import randint
+from concurrent.futures import ThreadPoolExecutor as ThreadPool
+from bs4 import BeautifulSoup as par
+from datetime import date
+from datetime import datetime
+from urllib.parse import quote
+
+#### ZEE K world
 import requests, sys, bs4, os, random, time, re, json
 from concurrent.futures import ThreadPoolExecutor as zthreads
 from requests.exceptions import ConnectionError
@@ -228,6 +238,7 @@ try:
         country=requests.get("http://ip-api.com/json/").json()["country"]
 except:
         ips=None
+        ipx=("NONE")
 
 def logo():
 	banner()

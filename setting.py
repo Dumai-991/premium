@@ -214,6 +214,7 @@ U='\033[0;35m'
 K='\033[0;33m'
 P='\033[0;37m'
 H='\033[0;90m'
+Q="\033[00m"
 warna_me=([i, c, m, u, k, p, h, b])
 warna_ms=([i, c, m, u, k, p, h, b])
 w2=(warna_me)
@@ -264,28 +265,31 @@ ________                           _____                     \n___  __ \________
 	print(w3+ganteng)
 
 def kntl():
-#                 %s"[ K N T L ]"
-        lpp___1 =("%s[          "%(k))
-        lpp___2 =("%s[ %sK        "%(k, m))
-        lpp___3 =("%s[ %sK %sN      "%(k, m, u))
-        lpp___4 =("%s[ %sK %sN %sT    "%(k, m, u, c))
-        lpp___5 =("%s[ %sK %sN %sT %sL "%(k, m, u, c, b))
-        lpp___6 =("%s[ %sK %sN %sT %sL %s]"%(k, m, u, c, b, k))
-        lpp___7 =("%s[ %sK %sN %sT %sL %s]"%(k, m, u, c, b, k))
-        lpp___8 =("%s[ %sK %sN %sT %sL "%(k, m, u, c, b))
-        lpp___9 =("%s[ %sK %sN %sT    "%(k, m, u, c))
-        lpp___10 =("%s[ %sK %sN      "%(k, m, u))
-        lpp___11 =("%s[ %sK        "%(k, m))
-        lpp___12 =("%s           "%(k))
-        lpp___13 =("%s[         ]"%(k))
-        lpp___14 =("  %sK %sN %sT %sL  "%(m, u, c, b,))
-        lpp___15 =("%s[          "%(k))
-        lpp___16 =("%s          ]"%(k))
-        lpp___17 =("%s[ %sD %sO %sN %sE %s]"%(k, i, i, i, i, k))
-
-        lpp___all = ([lpp___1, lpp___2, lpp___3, lpp___4, lpp___5, lpp___6,lpp___7, lpp___8, lpp___9,lpp___10, lpp___11, lpp___12, lpp___13,lpp___14, lpp___13, lpp___14, lpp___13, lpp___14, lpp___13, lpp___14, lpp___15, lpp___16, lpp___17])
-        for x in lpp___all:
-            stdout.write(p+'\r['+w3+'XXXX'+p+']'+k+'=='+u+'> '+x)
+        jjja = ([Q, C, I, B, U, M, K, H])
+        warn = (jjja)
+#        random.choice(warn)
+#             "< L O A D I N G >"
+        _1_ = ("%s<"%(C))
+        _2_ = ("%s< "%(C))
+        _3_ = ("%s< %sL"%(C,random.choice(warn)))
+        _4_ = ("%s< %sL "%(C,random.choice(warn)))
+        _5_ = ("%s< %sL %sO"%(C,random.choice(warn),random.choice(warn)))
+        _6_ = ("%s< %sL %sO "%(C,random.choice(warn),random.choice(warn)))
+        _7_ = ("%s< %sL %sO %sA"%(C,random.choice(warn),random.choice(warn),random.choice(warn)))
+        _8_ = ("%s< %sL %sO %sA "%(C,random.choice(warn),random.choice(warn),random.choice(warn)))
+        _9_ = ("%s< %sL %sO %sA %sD"%(C,random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn)))
+        _10_ =("%s< %sL %sO %sA %sD "%(C,random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn)))
+        _11_ =("%s< %sL %sO %sA %sD %sI"%(C,random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn)))
+        _12_ =("%s< %sL %sO %sA %sD %sI "%(C,random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn)))
+        _13_ =("%s< %sL %sO %sA %sD %sI %sN"%(C,random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn)))
+        _14_ =("%s< %sL %sO %sA %sD %sI %sN "%(C,random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn)))
+        _15_ =("%s< %sL %sO %sA %sD %sI %sN %sG"%(C,random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn)))
+        _16_ =("%s< %sL %sO %sA %sD %sI %sN %sG "%(C,random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn)))
+        _17_ =("%s< %sL %sO %sA %sD %sI %sN %sG %s>"%(C,random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),C))
+        
+        _99_ = ([_1_, _2_, _3_, _4_, _5_, _6_, _7_,  _8_, _9_, _10_, _11_, _12_, _13_, _14_, _15_, _16_, _17_, _17_,  _16_,  _15_,  _14_,  _13_,  _12_,  _11_,  _10_,  _9_,  _8_,  _7_,  _6_,  _5_, _4_,  _3_,  _2_,  _1_])
+        for x in _99_:
+            stdout.write("\r %s[%s+%s]%s=%s=%s=%s=%s⟩%s⟩ %s"%(random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),x))
             stdout.flush(),;time.sleep(0.30)
 def logo_mt():
 #### Hai Kak :-/

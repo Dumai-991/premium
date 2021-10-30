@@ -13,44 +13,41 @@ __Terima Kasih Kepada !!__
 5. [**Dapunta**](https://github.com/Dapunta)
 
 ### **★★INFORMATION SCRIPT★★**
-* __Script Ini Menggunakan 2 Method Login__
+* __Script Ini Menggunakan 4 Metode Crack__
 1. **B-Api Facebook**
 2. **MBasic Facebook**
 3. **Free Facebook**
 4. **Graph Facebook**
 
----MENU PREMIUM AND ADMIN
-
---PREMIUM
+--MENU PREMIUM
 1. Old or Young Facebook ID Separation
 2. Checkpoint Detector From File
 3. Check Option Sensi Akun
 4. Get Ttl Masal From File
 5. Facebook Bots
 
---ADMIN
+--MENU ADMIN
 1. Dump ID Follow Masal (max-500000)
-2. Dump Amount Of Friends
 
 
-### ID Dump Method
+### ★★ ID Dump Method ★★
 1. Dump From Public Friends
 2. Dump From Follow
 3. Dump From Follow Masal (ADMIN)
 
-### DONASI(Donate Bro)
+### ★★ DONASI(Donate Bro) ★★
 
 * Dana : ```083143565470```
 * Ovo. : ```083143565470```
 * Gopay: ```083143565470```
 * Pulsa: ```083143565470``` _AXIS_
 
-### Social Account
+### ★★ Social Account ★★
 * [Facebook](m.facebook.com/llovexnxx)
 * [WhatsApp](https://wa.me/6283143565470)
 * [Github](github.com/Dumai-991)
 
-### Bahan Script (Script Material)
+### ★★ Bahan Script (Script Material) ★★
 * **Bagi Yang Sudah Install Tools**
 ```
 cd $HOME/premium

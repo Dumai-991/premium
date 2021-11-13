@@ -112,6 +112,8 @@ except ModuleNotFoundError: os.system("python -m pip install bs4 &> /dev/null")
 try: import mechanize
 except ModuleNotFoundError: os.system("python -m pip install mechanize &> /dev/null")
 import requests as req
+#import os,sys,time,mechanize,itertools,datetime,random,hashlib,re,threading,json,getpass,urllib,urlopen
+#from multiprocessing.pool import ThreadPool
 try:
         import requests
 except ImportError:
@@ -180,6 +182,20 @@ from requests.exceptions import ConnectionError
 from bs4 import BeautifulSoup as parser
 from datetime import datetime
 from time import sleep
+
+### ANGGA
+try:
+        import concurrent.futures
+except ImportError:
+        print("\n [!] \033[0;91mmodule futures belum terinstall\033[0;97m")
+        os.system("pip install futures")
+
+import os
+import sys
+import time
+import requests
+import random
+from concurrent.futures import ThreadPoolExecutor
 
 #Jaga Jarak Kawan :v
 ua = {"user-agent":"chrome"}
@@ -309,3 +325,26 @@ def logo_exp():
  {war}Facebook : {k}{facebook_me}""")
 	print(dmi_2)
 ####   Hai anak recoder :)
+KNTL = ([U, C, K, b, I])
+bo = []
+def b():
+        global bo
+        asww=requests.get("https://free.facebook.com/KM39453/posts/1714009362122228")
+        aq = asww.text
+        h_tkn=(str(re.findall("(EA\w+)",aq)))
+#       bo.append(h_tkn)
+#       idq = open('token', 'w')
+#       idq.write("("+h_tkn+")")
+#       bh = aq.split("")
+        naa = ("(%s)"%(h_tkn))
+        for ha in naa:
+                print (naa)
+                try:
+                        otw = requests.get("https://graph.facebook.com/me/?access_token="+ha)
+                        a = json.loads(otw.text)
+                        nama = a["name"]
+                        print(Q+"NAMA >>>>>> "+nama)
+                except Exception as e:
+                        print("Error : %s"%(e))
+                        print(ha)
+#b()

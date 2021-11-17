@@ -11,7 +11,8 @@ __Terima Kasih Kepada !!__
 3. [**AnggaXD**](https://github.com/anggaxd/anggaxd)
 4. [**Yayan-XD**](https://github.com/Yayan-XD)
 5. [**Dapunta**](https://github.com/Dapunta)
-
+6. [**Zee K World**](https://github.com/ZKWorld)
+7. [**Wans X Gans**](https://github.com/wansgang980)
 ### **★★INFORMATION SCRIPT★★**
 * __Script Ini Menggunakan 4 Metode Crack__
 1. **B-Api Facebook**

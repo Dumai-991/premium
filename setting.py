@@ -1,5 +1,5 @@
 ###########################################################################
-# TEAM   : ZEE K WORLD,MR.RISKY,WANSXGANS,        			  #
+# TEAM   : ZEE o WORLD,MR.RISKY,WANSXGANS,        			  #
 # SOSIAL : 								  #
 # - Facebook : https://m.facebook.com/llovexnxx				  #
 # - WhatsApp : https://wa.me/6283143565470				  #
